@@ -13,6 +13,8 @@ public class SpringbootWithAwsApplication {
 		SpringApplication.run(SpringbootWithAwsApplication.class, args);
 	}
 
+
+
 	@GetMapping("/")
 	public String hello(){
 
