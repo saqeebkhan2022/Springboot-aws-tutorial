@@ -15,6 +15,7 @@ public class SpringbootWithAwsApplication {
 
 	@GetMapping("/")
 	public String hello(){
+
 		return "Your Springboot App is Deployed Successfully";
 	}
 
